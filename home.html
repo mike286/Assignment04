@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+    <style>
+    section.three-column {
+        margin-top:30px;
+    }
+    aside.three-column {
+        width:15%;
+    }
+    aside.sidebar-right {
+        width:24%;
+        background-color:azure;
+        height:100%;
+        float:right;
+        min-height:500px;
+        padding:1%;
+        
+    }
+    article.three-column-content {
+        width:61%;
+        position:absolute;
+        left:15%;
+        float:none;
+    }
+    table.courses-table {
+        width:100%;
+        empty-cells: initial;
+    }
+    table.courses-table tr {
+        padding:3px 5px;
+        background-color:#F5F5DC;
+        border:1px solid #CCC;
+        transition-duration:0.7s;
+    }
+    table.courses-table tr:nth-child(even) {
+        background-color:#F5F5DC;
+    }
+    table.courses-table tr:hover {
+        background-color:yellow;
+    }
+    table.courses-table td, table.courses-table th {
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="main-header box-shadow">
+            <img src="images/Logoatt.jpg" alt="logo" height="40" width="40">
+            Central Valley Books
+        </header>
+        <section class="content-bottom three-column">
+            <aside class="sidebar three-column">
+                <ul class="sidebar-links">
+                    <li><a href="http://www.google.com" target="_blank">Google</a></li>
+                    <li><a href="https://www.amazon.com/" target="_blank">amazon</a></li>
+                    <li><a href="http://bookshop.blackwell.co.uk/bookshop/home/" target="_blank"> blackwell's </a></li>
+                    <li><a href="https://www.wired.com/" target="_blank"> wired.com</a></li>
+                    <li><a href="https://www.w3schools.com/html/" target="_blank">w3schools.com/html/</a></li>
+                    <li><a href="https://www.javascript.com/" target="_blank"javascript.com></a></li>
+                </ul>
+            </aside>
+            <article class="main-content three-column-content">
+                <div class="gallery">
+                    <h1>Books</h1>
+                    <div>
+                        <!--button type="button" class="btn btn-default" aria-label="Left Align">
+  <!--span class="glyphicon glyphicon-align-left" aria-hidden="true"></span-->
+<!--/button>
+
+<!--button type="button" class="btn btn-default btn-lg"-->
+  <!--span class="glyphicon glyphicon-star" aria-hidden="true"--><!--/span> Star
+<!--/button-->
+                    </div>
+                    <table class="books-table">
+                        
+                        <tr>
+                            <td><img src="images/book1.jpg" alt="first book"></td>
+                            <td><img src="images/book2.jpg" alt="secoond book"></td>
+                            <td><img src="images/book3.jpg" alt="third book"></td>
+                            <td><img src="images/book4.jpg" alt="fourth book"></td>
+                        </tr>
+                        <tr>
+                            <td>Fiction</td>
+                            <td>Fiction</td>
+                            <td>Fiction</td>
+                            <td>Fiction</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/book5.jpg" alt="fifth book"></td>
+                            <td><img src="images/book6.jpg" alt="sixth book"></td>
+                            <td><img src="images/book7.jpg" alt="seventh book"></td>
+                            <td><img src="images/book8.jpg" alt="eight book"></td>
+                        </tr>
+                        <tr>
+                            <td>Non-fiction</td>
+                            <td>Non-fiction</td>
+                            <td>Non-fiction</td>
+                            <td>Non-fiction</td>
+                        </tr>
+                        
+                            
+                        
+                    </table>
+                </div>
+            </article>
+            <aside class="sidebar-right">
+                <h1>Recent Products</h1>
+                
+                <p><img src="images/book7.jpg" alt="seventh book"></p>
+            </aside>
+        </section>
+    </div>
+    <footer class="footer box-shadow">
+        <p class="copyright">
+            (c) 2017
+        </p>
+    </footer>
+</body>
+</html>
